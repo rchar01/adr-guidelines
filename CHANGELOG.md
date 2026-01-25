@@ -10,7 +10,8 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ## [1.0.2] - 2026-01-25
 ### Fixed
 - Fix markdown table formatting in templates README (allowed ADR statuses).
-\1## [1.0.1] - 2026-01-25
+
+## [1.0.1] - 2026-01-25
 ### Changed
 - Clarify that this repository provides suggested ADR conventions that can be
   adapted.
