@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
+
+# Temporary
+tmp/
+temp/
+
+# Generated docs or previews
+*.html
+
+# Agent patch artifacts
+/.agent/patches/
+
+# Agent sandbox worktrees
+/.agent/worktrees/

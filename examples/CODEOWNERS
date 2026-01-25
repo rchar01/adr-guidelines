@@ -1,0 +1,8 @@
+<!-- This file is generated from templates/CODEOWNERS -->
+<!-- Do not edit directly; update the template instead -->
+
+# Architecture Decision Records ownership
+
+/adr/ @architecture-team
+/adr-template.md @architecture-team
+/README.md @architecture-team
