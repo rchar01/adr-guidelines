@@ -120,7 +120,7 @@ justifies it.
 ### Allowed statuses
 
 | Status       | Description                                   |
-|--------------+-----------------------------------------------|
+| ------------ | --------------------------------------------- |
 | `Proposed`   | Decision under discussion (Pull Request only) |
 | `Accepted`   | Decision approved and valid                   |
 | `Rejected`   | Decision considered and explicitly rejected   |
