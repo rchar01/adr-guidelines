@@ -23,8 +23,8 @@ Teams should use this repository to:
 - bootstrap a new ADR repository by copying content from `templates/`,
 - align on a shared ADR workflow and conventions,
 - learn by example using the sample content in `examples/`,
-- reference a single, authoritative ADR standard in internal
-  documentation.
+- treat this repository as a **suggested baseline** that can be adapted
+  to your context.
 
 Real architectural decisions must live in **project- or system-specific
 ADR repositories** created from these templates.
@@ -86,7 +86,8 @@ This repository is intended for:
 
 ## Guiding statement
 
-> **This repository defines how Architecture Decision Records should be
-> written and managed.
+> **This repository proposes one practical way to write and manage
+> Architecture Decision Records.
+> Adapt it to your organization.
 > Real decisions belong in repositories created from the provided
 > templates.**

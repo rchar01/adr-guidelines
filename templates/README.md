@@ -12,8 +12,7 @@ ADR are used to:
 - prevent undocumented architectural drift,
 - support long-term maintainability, onboarding, and audits.
 
-This repository is the **single source of truth** for architectural decisions
-within its scope.
+This repository is intended to be the **single source of truth** for\1architectural decisions within its scope.
 
 ## What is an Architecture Decision Record (ADR)
 
@@ -127,7 +126,7 @@ justifies it.
 | `Rejected`   | Decision considered and explicitly rejected   |
 | `Superseded` | Decision replaced by a newer ADR              |
 
-> The `main` branch must **never** contain ADRs with status `Proposed`.
+> Recommendation: the `main` branch should not contain ADRs with status `Proposed`.
 
 ## How to create an ADR (workflow)
 
@@ -206,7 +205,7 @@ After merge:
 
 ## Changing an accepted decision
 
-Accepted ADRs are **immutable**.
+Accepted ADRs should be treated as **immutable**.
 
 If the approach changes:
 
@@ -333,4 +332,4 @@ Implement storage backend change (ADR-0012)
 
 > **Pull Requests are for discussion.
 > `main` is for decisions.
-> History must never be rewritten.**
+> History should not be rewritten.**
