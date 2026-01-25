@@ -104,8 +104,8 @@ copy_file() {
   # macOS/BSD: no --reference; fall back to preserving just executability
   if chmod --reference="$src" "$dest" 2>/dev/null; then
     :
-  elif command -v gchmod >/dev/null 2>&1 && gchmod --reference="$src" "$dest" 2>/dev/null then
-       :
+  elif command -v gchmod >/dev/null 2>&1 && gchmod --reference="$src" "$dest" 2>/dev/null; then
+    :
   else
     if [[ -x "$src" ]]; then
       chmod +x "$dest"
