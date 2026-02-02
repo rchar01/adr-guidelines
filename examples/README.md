@@ -15,7 +15,7 @@ ADR are used to:
 - prevent undocumented architectural drift,
 - support long-term maintainability, onboarding, and audits.
 
-This repository is intended to be the **single source of truth** for\1architectural decisions within its scope.
+This repository is intended to be the **single source of truth** for architectural decisions within its scope.
 
 ## What is an Architecture Decision Record (ADR)
 
